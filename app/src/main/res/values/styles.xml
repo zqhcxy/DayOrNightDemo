@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- 日间模式 -->
+    <style name="AppTheme.day" parent="AppTheme">
+        <item name="containerBackground">@color/white_dark</item>
+        <item name="titleColor">@color/gray_dark</item>
+        <item name="textColor">@color/gray</item>
+        <item name="selectorBtn">@drawable/ic_map</item>
+        <item name="selectorListItem">@drawable/ic_media_greetings</item>
+        <!--新-->
+        <item name="toolbarBackground">@color/toolbar_blue_light</item>
+        <item name="nightBackground">@color/appbg_gray_light</item>
+        <item name="nomalListItem">@color/list_gray_light</item>
+        <item name="darkTextColor">@color/font_black_light</item>
+
+    </style>
+    <!-- 夜间模式 -->
+    <style name="AppTheme.night" parent="AppTheme">
+        <item name="containerBackground">@color/green_dark</item>
+        <item name="titleColor">@color/white_dark</item>
+        <item name="textColor">@color/green_light</item>
+        <item name="selectorBtn">@drawable/nav_bg_big</item>
+        <item name="selectorListItem">@drawable/nav_bg_big2</item>
+        <!--新-->
+        <item name="toolbarBackground">@color/blue_dark</item>
+        <item name="nightBackground">@color/blacknight_dark</item>
+        <item name="nomalListItem">@color/blue_dark_dark</item>
+        <item name="darkTextColor">@color/blue_light</item>
+    </style>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--测试-->
+    <attr name="containerBackground" format="reference|color"></attr>
+    <attr name="cardBackground" format="reference|color"></attr>
+    <attr name="titleColor" format="reference|color"></attr>
+    <attr name="textColor" format="reference|color"></attr>
+    <attr name="selectorBtn" format="reference"></attr>
+    <attr name="selectorListItem" format="reference"></attr>
+
+    <!-- 新-->
+    <attr name="toolbarBackground" format="reference|color"></attr>
+    <attr name="nightBackground" format="reference|color"></attr>
+    <attr name="nomalListItem" format="reference|color"></attr>
+    <attr name="darkTextColor" format="color"></attr>
+    <!--<attr name="lightTextColor" format="color"></attr>// 浅的文字颜色-->
+
+</resources>
